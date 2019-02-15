@@ -1,0 +1,28 @@
+#gallery {
+    height: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 #888888;
+    opacity: 0.8;
+    transform: scale(0.9);
+    transition: 0.8s ease;
+}
+
+.card-text:hover {
+    cursor: default;
+}
+
+.card {
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .card:hover {
+        opacity: 1;
+        transform: none;
+        box-shadow: none;
+    }
+}
+
